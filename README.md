@@ -1,7 +1,5 @@
 # Triply – Smart Travel Itinerary & Budget Planner
 
----
-
 ## Project Overview
 Travellers struggle with scattered tools for itineraries, budgets, maps, and documents, causing stress and overspending. Triply unifies day-wise itineraries, budget tracking, interactive maps, document storage, and travel tools—making journeys organized, efficient, and collaborative.  
 
@@ -78,3 +76,4 @@ Travellers struggle with scattered tools for itineraries, budgets, maps, and doc
 | Any other ManyToMany intermediate tables | For example, `trips_trip_participants` for `Trip.participants` |
 
 > **Note:** Tables like `expenses_split_between` are automatically generated to handle ManyToMany relationships in PostgreSQL.
+
