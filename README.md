@@ -12,21 +12,6 @@ Travellers struggle with scattered tools for itineraries, budgets, maps, and doc
 
 ---
 
-## User Flow
-
-1. **Sign Up / Login:** User logs in from home page, gets authenticated, reaches dashboard.  
-2. **Dashboard:** View trips, check budget summary, quick links to create trip, add expenses, view upcoming trips, check weather, access documents.  
-3. **Create Trip:** Fill form and save new trip.  
-4. **Add Places & Build Itinerary:** Add destinations, select day, schedule activities, save itinerary.  
-5. **Collaborate / Co-edit & Share:** Share trip with friends/family, co-edit itinerary.  
-6. **Set Budget:** Set budget, track expenses.  
-7. **Map View:** Visualize routes and navigate destinations.  
-8. **Weather Insights:** Check forecast and receive alerts.  
-9. **Upload Documents:** Upload and store files securely.  
-10. **Track & Access Offline:** Download maps for offline access.
-
----
-
 ## Django Apps
 
 - `accounts` → Handles user registration, authentication, and profile management  
@@ -76,4 +61,5 @@ Travellers struggle with scattered tools for itineraries, budgets, maps, and doc
 | Any other ManyToMany intermediate tables | For example, `trips_trip_participants` for `Trip.participants` |
 
 > **Note:** Tables like `expenses_split_between` are automatically generated to handle ManyToMany relationships in PostgreSQL.
+
 
